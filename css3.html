@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>document</title>
+
+<style>
+
+nav{
+    background-color: green;
+    padding: 15px;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+li{
+    display:inline-block;
+    list-style:none;
+    margin-right:30px;
+    font-size:25px;
+    color:white;
+}
+
+li:hover{
+    color:yellow;
+}
+
+details{
+    display:inline-block;
+    color:white;
+    font-size:25px;
+    margin-right:30px;
+    position: relative;
+}
+
+summary{
+    cursor:pointer;
+}
+
+details ul{
+    position:absolute;
+    top:40px;
+    left:0;
+    background-color:green;
+    padding:10px;
+}
+
+details ul li{
+    display:block;
+    margin:10px 0;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li>Home</li>
+<li>About</li>
+
+<details>
+<summary>Products</summary>
+<ul>
+<li>Laptop</li>
+<li>Mobile</li>
+<li>Tablet</li>
+<li>Accessories</li>
+</ul>
+</details>
+
+<li>Services</li>
+<li>Contact</li>
+</ul>
+</nav>
+
+</body>
+</html>
